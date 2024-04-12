@@ -1,0 +1,33 @@
+.inputWrapper{
+    width: 70vw;
+    height: 80px;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(187,187,187,0.8);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(187,187,187,0.8);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(187,187,187,0.8);
+    display: flex;
+}
+.form{
+    width: 100%;
+    display: flex;
+}
+.input{
+    padding: 8px;
+    width: 80%;
+    border-radius: 4px 0 0 4px;
+    flex: 1;
+}
+.addButton {
+    padding: 8px 16px;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.addButton:hover {
+    background-color: #505050;
+}
+.error{
+    box-shadow: 0px 0px 2px 2px rgb(255, 19, 19) inset;
+}

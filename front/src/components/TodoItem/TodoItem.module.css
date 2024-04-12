@@ -1,0 +1,81 @@
+.todoWrapper{
+    width: 70vw;
+    height: 80px;
+    margin: 30px 0 0 0;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(187,187,187,0.8);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(187,187,187,0.8);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(187,187,187,0.8);
+    position: relative;
+    overflow: hidden;
+    
+}
+.todoText{
+    position: relative;
+    z-index: 5;
+    font-size: 20px;
+}
+.aboutInput{
+    width: 80%;
+    height: 40%;
+    position: relative;
+    z-index: 10;
+}
+.about{
+    position: relative;
+    z-index: 10;
+}
+.todoEndDate{
+    position: absolute;
+    top: 5px;
+    right: 60px;
+    font-size: 11px;
+}
+.todoStartDate{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 11px;
+}
+.progressBar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.progressFill{
+    position: absolute;
+    bottom: 0;
+    left: 1.8px;
+    background-color: rgb(236, 250, 36);
+    z-index: 1;
+    height: 5%;
+}
+.completedItem{
+    background-color: #d3d3d3;
+    z-index: 1;
+    text-decoration: line-through;
+    color: #777;
+}
+.checkbox {
+    display: block;
+    position: relative;
+    z-index: 10;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    margin: 0;
+}
+.selectorsDiv{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    display: block;
+}
+.img{
+    position: relative;
+    z-index: 10;
+    display: block;
+}
